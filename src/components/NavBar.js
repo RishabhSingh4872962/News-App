@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 export default function NavBar() {  
     return (
       <>
-        <nav className="navbar fixed-top navbar-expand-lg navbar-light"  style={{"background-color": "#e3f2fd"}}>
+        <nav className="navbar fixed-top navbar-expand-lg navbar-light"  style={{backgroundColor: "#e3f2fd"}}>
         <div className="container-fluid">
           <Link className="navbar-brand" to="/">The India Times</Link>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

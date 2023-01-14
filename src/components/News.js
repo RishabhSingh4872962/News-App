@@ -29,6 +29,7 @@ const News = (props) => {
   useEffect( () => {
     document.title=`The India Times -${capatilize(props.category)}`
     updateData();
+     // eslint-disable-next-line
   }, []);
 
   const fetchMoreData = async () => {
@@ -47,7 +48,7 @@ const News = (props) => {
 
   if (!(page <= Math.ceil(totalResults / props.pageSize))) {
   }
-  console.log(!loading);
+ // console.log(!loading);
   return (
     <>
       <h1 className=" d-flex justify-content-center mt-5 mb-4">
